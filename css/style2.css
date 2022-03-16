@@ -1,0 +1,32 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#menu-h{
+    list-style:none;
+    padding: 0;
+    
+}
+#menu-h li a{
+    color: #fff;;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+#menu-h li{
+    display: inline;
+}
+#menu-h li a{
+    background-color: rgb(235, 161, 173);
+}
+#h1{
+    margin: 0 auto;
+    color: #fff;;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0;
+    padding: 20px;
+    background-color: rgb(235, 161, 173);
+}
