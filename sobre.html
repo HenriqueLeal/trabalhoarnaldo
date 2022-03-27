@@ -65,13 +65,31 @@
     </div>
         <body>
         <br> 
-            <h2 style="color: rgb(196, 220, 248)k;" align="center" ><i>いらっしゃいませ</i></h2>
            <br>
-           <hr style="color: rgb(252, 195, 195);">
            <img align="center" src="img/contato2.png" class="contato">
            
            <img align="center" src="img/contato6.png" class="contato2">
-
+            <h2 style="color: rgb(253, 211, 211)" class="sobre">Entre em contato!</h2>
            <div>
+            <form href="index.html" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="usuario_nome" />
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="usuario_email" />
+                </div>
+                <div>
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg" name="usuario_msg"></textarea>
+                </div>
+            
+                <div class="button">
+                    <button type="submit">Enviar sua mensagem</button>
+                </div>
+            </form>
+            <br>
+            <br>
         </body>
     </html>
